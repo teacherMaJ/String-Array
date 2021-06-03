@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //ES5  所有的字符串只能读不能写，返回的都是新串
+        var str="abc123ABC"
+        //返回的是在某个索引位置的指定字符
+        console.log(str.charAt(1)); //b *****
+        //返回某个位置字符的 字符编码(unicode码)
+        console.log(str.charCodeAt(1));//98 *
+        // 返回拼接后的字符串  不改变原来的字符串(所有的字符串只能读不能写，返回的都是新串)
+        console.log(str.concat("hello"));//abc123ABChello
+
+
+    </script>
+</body>
+</html>
